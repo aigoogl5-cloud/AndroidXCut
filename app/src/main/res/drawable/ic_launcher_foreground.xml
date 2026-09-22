@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Film Frame & Cut / Play Badge inside 66dp safe zone (21 to 87) -->
+    <!-- Film Reel Clapper base -->
+    <path
+        android:pathData="M32,33 h44 c3.3,0 6,2.7 6,6 v30 c0,3.3 -2.7,6 -6,6 h-44 c-3.3,0 -6,-2.7 -6,-6 v-30 c0,-3.3 2.7,-6 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="33"
+                android:endX="82"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top clapper strip / film notches -->
+    <path
+        android:pathData="M30,37 h48 v5 h-48 z"
+        android:fillColor="#334155" />
+    <path
+        android:pathData="M34,38 h4 v3 h-4 z M42,38 h4 v3 h-4 z M50,38 h4 v3 h-4 z M58,38 h4 v3 h-4 z M66,38 h4 v3 h-4 z M74,38 h4 v3 h-4 z"
+        android:fillColor="#00F5D4" />
+
+    <!-- Play triangle with glowing gradient -->
+    <path
+        android:pathData="M48,47 L65,55 L48,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="47"
+                android:endX="65"
+                android:endY="63"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#00BBF9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cut / Scissor Slice Beam across corner -->
+    <path
+        android:pathData="M66,34 L78,46"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="66"
+                android:startY="34"
+                android:endX="78"
+                android:endY="46"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F72585" />
+                <item android:offset="1.0" android:color="#7209B7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Scissors handle dots -->
+    <path
+        android:pathData="M63,33 A2.5,2.5 0 1,0 63,38 A2.5,2.5 0 1,0 63,33"
+        android:fillColor="#F72585" />
+    <path
+        android:pathData="M81,45 A2.5,2.5 0 1,0 81,50 A2.5,2.5 0 1,0 81,45"
+        android:fillColor="#7209B7" />
+</vector>

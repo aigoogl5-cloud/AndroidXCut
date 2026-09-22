@@ -1,0 +1,7 @@
+{
+  "name": "Androidxcut",
+  "description": "Offline multi-track video and media editor with timeline, trims, cuts, filters, text overlays, audio, transitions, and export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
